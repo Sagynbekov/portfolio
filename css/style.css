@@ -69,12 +69,91 @@ body {
     text-align: center;
 }
 
+/* home */
+.my-photo {
+    margin-right: 50px;
+    width: 355px;
+    height: 355px;
+    border-radius: 1000px;
+}
+.home-flex-box {
+    display: flex;
+}
+.home-subtitle {
+    font-size: 18px;
+}
+.home-flex-boxs {
+    margin-top: 20px
+}
 
+/* education */
+#education {
+    background-color: var(--accent);
+    padding-top: 35px;
+    padding-bottom: 35px;
+    color: white;
+}
 
+.education {
+    text-align: center;
+    color:rgb(252, 252, 252);
+    font-weight: bold;
+    font-size: 35px;
+}
+
+/* languages */
+.languages-flex {
+    margin-bottom: 35px;
+}
+
+.languages-subtitle {
+    padding-top: 35px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+/* skills */
+#skills {
+    background-color: var(--accent);
+    padding-bottom: 35px;
+    color: white;
+}
+.skills {
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    font-size: 35px;
+}
+.skills-subtitle {
+    font-size: 20px;
+    margin-bottom: 10px; 
+}
+
+/* contacts */
+#contacts {
+    font-size: 15px;
+    padding-bottom: 35px;
+}
+.phone-number {
+    color: rgb(65, 64, 64);
+}
+
+/* hover */
+.education:hover,
+.skills:hover {
+    color: #ffb700;
+    transition: 0.2s;
+}
 .header-title:hover {
     color: #ffb700;
     transition: 0.2s;
 }
+
+.phone-number:hover {
+    color: #ffb700;
+    transition: 0.2s;
+}
+
 .header-menu-link:hover {
     background-color: var(--accent-light);
 }
