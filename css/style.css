@@ -102,6 +102,9 @@ body {
 }
 
 /* languages */
+#languages {
+    padding-top: 35px;
+}
 .languages-flex {
     margin-bottom: 35px;
 }
@@ -114,6 +117,7 @@ body {
 
 /* skills */
 #skills {
+    padding-top: 35px;
     background-color: var(--accent);
     padding-bottom: 35px;
     color: white;
@@ -129,6 +133,39 @@ body {
     margin-bottom: 10px; 
 }
 
+/* portfolio */
+.portfolio-title {
+    padding-top: 35px;
+    color: rgb(65, 64, 64);;
+    text-align: center;
+    font-weight: bold;
+    font-size: 35px;
+}
+
+.portfolio ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.portfolio h3 {
+    color: white;
+    font-weight: bold;
+}
+.portfolio li {
+    border-radius: 10px;
+    background-color: var(--accent);
+    text-align: center;
+    margin-right: 20px;
+    overflow: hidden;
+    cursor: pointer;
+}
+.portfolio img {
+    width: 100%;
+}
+
+
 /* contacts */
 #contacts {
     font-size: 15px;
@@ -140,7 +177,8 @@ body {
 
 /* hover */
 .education:hover,
-.skills:hover {
+.skills:hover,
+.portfolio-title:hover {
     color: #ffb700;
     transition: 0.2s;
 }
@@ -156,4 +194,9 @@ body {
 
 .header-menu-link:hover {
     background-color: var(--accent-light);
+}
+
+.portfolio li:hover {
+    background-color: rgb(65, 64, 64);
+    transition: 0.2s;
 }
